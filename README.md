@@ -10,7 +10,7 @@ I also plan to maintain this lab notebook (currently only accessible for
 people from the University of York):
 <https://docs.google.com/document/d/1jK0nO0wQ-q9ijus1NMKelzS6CheKKBwO8IlVTv5Jilc/edit?usp=sharing>
 
-# Initial Tasks \[5/8\]
+# Initial Tasks \[7/11\]
 
 Setting up the project to be partially logged using GitHub is my choice
 but the rest of it was either requested by David Dickinson or by the
@@ -45,6 +45,22 @@ course in general
 
 </div>
 
+## ![](https://img.shields.io/badge/DONE-brightgreen) Update the lab notebook to explain all the things I've done so far
+
+<div class="LOGBOOK drawer">
+
+- TIMESTAMP: \[2026-10-02 Fri 02:20\]--\[2026-10-02 Fri 02:58\] =\> 0:38
+
+</div>
+
+## ![](https://img.shields.io/badge/DONE-brightgreen) Setup up Zotero and add the papers that I need to read
+
+<div class="LOGBOOK drawer">
+
+- TIMESTAMP: \[2026-10-02 Fri 02:58\]--\[2026-10-02 Fri 03:22\] =\> 0:24
+
+</div>
+
 ## ![](https://img.shields.io/badge/DONE-brightgreen) Create a github workflow that converts the README.org into a README.md (Ended up reusing one I'd created for a different project, did have an error where I forgot to fully integrate it so it did take 2 git commits to get working, fyi some AI was originally used in the process of creating the github workflow)
 
 <div class="LOGBOOK drawer">
@@ -59,3 +75,9 @@ course in general
 ## ![](https://img.shields.io/badge/TODO-red) READ <https://arxiv.org/abs/1207.4419> -- Gyrokinetics and GS2 (note they are interested in the "electrostatic limit" where the plasma cannot perturb the magnetic field, this means their equations don't include all the terms we may be interested in).
 
 ## ![](https://img.shields.io/badge/TODO-red) READ <https://etheses.whiterose.ac.uk/id/eprint/3331/> -- Introductory chapters introduces some of the background plasma physics
+
+## ![](https://img.shields.io/badge/TODO-red) Obtain and Compile GS2 on Viking
+
+# Literature Review \[/\]
+
+## ![](https://img.shields.io/badge/TODO-red) DO some more reading on the literature
