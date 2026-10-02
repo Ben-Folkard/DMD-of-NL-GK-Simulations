@@ -52,7 +52,6 @@ I also plan to maintain this lab notebook (currently only accessible for people 
 
 ** TODO Obtain and Compile GS2 on Viking
 
-* Literature Review [/]
+* Literature Review [0/1]
 ** TODO DO some more reading on the literature
-
 
