@@ -18,7 +18,7 @@ jobs:
         run: |
           rm -f README.md
           
-          pandoc -f org -t gfm "$file" >> README.md
+          pandoc -f org -t gfm "README.org" >> README.md
 
           # Colouring TODO, IN-PROGRESS, CANCELLED, and DONE
           sed -i 's/\bTODO\b/![](https:\/\/img.shields.io\/badge\/TODO-red)/g' README.md
