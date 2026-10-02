@@ -18,7 +18,7 @@ course in general
 
 ## ![](https://img.shields.io/badge/DONE-brightgreen) Complete the VIKING user application form (Had not made the README.org so that's why it's not been 'clocked in' and took about 5-15 mins on 25/09/2026 finsihing roughly at 14:37)
 
-## ![](https://img.shields.io/badge/DONE-brightgreen) Setup GITHUB repo (including README.org which currently acts as a ![](https://img.shields.io/badge/TODO-red) list, Lab Notebook, and general folder that will hold my MPhys files)
+## ![](https://img.shields.io/badge/DONE-brightgreen) Setup GITHUB repo (including README.org which currently acts as a to do list, Lab Notebook, and general folder that will hold my MPhys files)
 
 <div class="LOGBOOK drawer">
 
