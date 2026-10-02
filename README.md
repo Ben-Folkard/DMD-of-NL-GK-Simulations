@@ -1,4 +1,16 @@
-# Initial Tasks \[4/8\]
+# Introduction
+
+Hello, My name is Ben Folkard. I'm a stage 4 theoretical physisist, and
+this is a git repository that holds a todo list, with chronological
+timekeeping of when I did those tasks, but also a backup of all the
+files for my MPhys Project on Dynamic Mode Decomposition of nonlinear
+gyrokinetic simulations.
+
+I also plan to maintain this lab notebook (currently only accessible for
+people from the University of York):
+<https://docs.google.com/document/d/1jK0nO0wQ-q9ijus1NMKelzS6CheKKBwO8IlVTv5Jilc/edit?usp=sharing>
+
+# Initial Tasks \[5/8\]
 
 Setting up the project to be partially logged using GitHub is my choice
 but the rest of it was either requested by David Dickinson or by the
@@ -25,7 +37,13 @@ course in general
 
 </div>
 
-## ![](https://img.shields.io/badge/TODO-red) Create a google doc lab notebook
+## ![](https://img.shields.io/badge/DONE-brightgreen) Create a google doc lab notebook and add it to the README
+
+<div class="LOGBOOK drawer">
+
+- TIMESTAMP: \[2026-10-02 Fri 01:51\]--\[2026-10-02 Fri 02:15\] =\> 0:24
+
+</div>
 
 ## ![](https://img.shields.io/badge/DONE-brightgreen) Create a github workflow that converts the README.org into a README.md (Ended up reusing one I'd created for a different project, did have an error where I forgot to fully integrate it so it did take 2 git commits to get working, fyi some AI was originally used in the process of creating the github workflow)
 
