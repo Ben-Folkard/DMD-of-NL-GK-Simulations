@@ -12,7 +12,7 @@ I also plan to maintain this lab notebook (currently only accessible for people 
   Setting up the project to be partially logged using GitHub is my choice but the rest of it was either requested by David Dickinson or by the course in general
 ** DONE Complete the VIKING user application form (Had not made the README.org so that's why it's not been 'clocked in' and took about 5-15 mins on 25/09/2026 finsihing roughly at 14:37)
    CLOSED: [2026-09-25 Fri 14:37]
-** DONE Setup GITHUB repo (including README.org which currently acts as a TODO list, Lab Notebook, and general folder that will hold my MPhys files) 
+** DONE Setup GITHUB repo (including README.org which currently acts as a to do list, Lab Notebook, and general folder that will hold my MPhys files) 
    CLOSED: [2026-10-02 Fri 00:59]
    :LOGBOOK:
    CLOCK: [2026-10-02 Fri 00:32]--[2026-10-02 Fri 00:59] => 0:27
