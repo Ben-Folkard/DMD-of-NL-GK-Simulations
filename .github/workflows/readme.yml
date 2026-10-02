@@ -1,0 +1,46 @@
+name: Sync README
+on:
+  push:
+    paths:
+      - 'README.org'
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+      - name: Convert Org to Markdown
+        run: |
+          rm -f README.md
+          
+          pandoc -f org -t gfm "$file" >> README.md
+
+          # Colouring TODO, IN-PROGRESS, CANCELLED, and DONE
+          sed -i 's/\bTODO\b/![](https:\/\/img.shields.io\/badge\/TODO-red)/g' README.md
+          sed -i 's/\bDONE\b/![](https:\/\/img.shields.io\/badge\/DONE-brightgreen)/g' README.md
+          sed -i 's/\bIN-PROGRESS\b/![](https:\/\/img.shields.io\/badge\/IN--PROGRESS-blue)/g' README.md
+          sed -i 's/\bCANCELLED\b/![](https:\/\/img.shields.io\/badge\/CANCELLED-lightgrey)/g' README.md
+
+          # Turn the text logbook blocks into dropdown blocks
+          sed -i 's/.*:LOGBOOK:/<details><summary>View Task Logs<\/summary>\n\n```text\n:LOGBOOK:/g' README.md
+          sed -i 's/.*:END:/:END:\n```\n<\/details>/g' README.md
+
+          # Make the log timestamps appear in a bullet list
+          sed -i 's/CLOCK:/\r- TIMESTAMP:/g' README.md
+
+          # Switching the emdash Pandoc outputs to --
+          sed -i 's/–/--/g' README.md
+
+      - name: Push README.md
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: sync README markdown output" || exit 0
+          git push
+
