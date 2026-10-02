@@ -1,0 +1,43 @@
+# Initial Tasks \[4/8\]
+
+Setting up the project to be partially logged using GitHub is my choice
+but the rest of it was either requested by David Dickinson or by the
+course in general
+
+## ![](https://img.shields.io/badge/DONE-brightgreen) Complete the VIKING user application form (Had not made the README.org so that's why it's not been 'clocked in' and took about 5-15 mins on 25/09/2026 finsihing roughly at 14:37)
+
+## ![](https://img.shields.io/badge/DONE-brightgreen) Setup GITHUB repo (including README.org which currently acts as a ![](https://img.shields.io/badge/TODO-red) list, Lab Notebook, and general folder that will hold my MPhys files)
+
+<div class="LOGBOOK drawer">
+
+- TIMESTAMP: \[2026-10-02 Fri 00:32\]--\[2026-10-02 Fri 00:59\] =\> 0:27 - TIMESTAMP:
+\[2026-09-26 Sat 14:32\]--\[2026-09-26 Sat 14:54\] =\> 0:22
+
+</div>
+
+## ![](https://img.shields.io/badge/DONE-brightgreen) Complete risk assessment (involves filling it in, sending it to my supervisor and submitting it to the VLE)
+
+<div class="LOGBOOK drawer">
+
+- TIMESTAMP: \[2026-10-02 Fri 00:10\]--\[2026-10-02 Fri 00:31\] =\> 0:21 - TIMESTAMP:
+\[2026-10-01 Thu 18:02\]--\[2026-10-01 Thu 18:44\] =\> 0:42 - TIMESTAMP:
+\[2026-10-01 Thu 16:33\]--\[2026-10-01 Thu 17:45\] =\> 1:12
+
+</div>
+
+## ![](https://img.shields.io/badge/TODO-red) Create a google doc lab notebook
+
+## ![](https://img.shields.io/badge/DONE-brightgreen) Create a github workflow that converts the README.org into a README.md (Ended up reusing one I'd created for a different project, did have an error where I forgot to fully integrate it so it did take 2 git commits to get working, fyi some AI was originally used in the process of creating the github workflow)
+
+<div class="LOGBOOK drawer">
+
+- TIMESTAMP: \[2026-10-02 Fri 01:36\]--\[2026-10-02 Fri 01:39\] =\> 0:03 - TIMESTAMP:
+\[2026-10-02 Fri 01:14\]--\[2026-10-02 Fri 01:25\] =\> 0:11
+
+</div>
+
+## ![](https://img.shields.io/badge/TODO-red) READ <https://arxiv.org/abs/2312.00137> -- DMD techniques
+
+## ![](https://img.shields.io/badge/TODO-red) READ <https://arxiv.org/abs/1207.4419> -- Gyrokinetics and GS2 (note they are interested in the "electrostatic limit" where the plasma cannot perturb the magnetic field, this means their equations don't include all the terms we may be interested in).
+
+## ![](https://img.shields.io/badge/TODO-red) READ <https://etheses.whiterose.ac.uk/id/eprint/3331/> -- Introductory chapters introduces some of the background plasma physics
