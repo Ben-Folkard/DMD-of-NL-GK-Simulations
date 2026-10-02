@@ -78,6 +78,6 @@ course in general
 
 ## ![](https://img.shields.io/badge/TODO-red) Obtain and Compile GS2 on Viking
 
-# Literature Review \[/\]
+# Literature Review \[0/1\]
 
 ## ![](https://img.shields.io/badge/TODO-red) DO some more reading on the literature
